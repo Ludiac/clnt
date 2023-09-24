@@ -34,8 +34,7 @@ private:
 
 class Rooms {
 public:
-  RoomContent* get_room_cache(qint32 id);
-  QString get_name(qint32 id);
+  RoomContent *get_room_cache(qint32 id);
   void set_name(qint32 id, QString name);
   bool add_room(qint32 id, QString name);
 

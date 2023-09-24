@@ -38,8 +38,3 @@ void Rooms::set_name(qint32 id, QString name)
 {
   get_room_cache(id)->name = name;
 }
-
-QString Rooms::get_name(qint32 id)
-{
-  return get_room_cache(id)->name;
-}
