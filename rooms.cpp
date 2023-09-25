@@ -1,4 +1,4 @@
-#include "network_thread.hpp"
+#include "rooms.hpp"
 #include "qdebug.h"
 
 RoomContent::RoomContent(bool publicc) : publicc{publicc} {}

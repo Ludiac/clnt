@@ -4,11 +4,6 @@
 #include "qpointer.h"
 #include "qstring.h"
 
-struct Client {
-  QString tag;
-  qint32 id_in_db;
-};
-
 struct Message {
   qint32 id;
   qint32 sender_id;

@@ -1,11 +1,11 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include "network_thread.hpp"
 #include "qlistwidget.h"
 #include "qmutex.h"
-#include <QMainWindow>
+#include "rooms.hpp"
 #include <QDataStream>
+#include <QMainWindow>
 #include <QtNetwork/QTcpSocket>
 
 enum class message_type : qint32 {

@@ -17,8 +17,8 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-        network_thread.hpp
-        network_thread.cpp
+        rooms.hpp
+        rooms.cpp
         prompt_qdialog.hpp
         prompt_qdialog.cpp
         prompt_qdialog.ui
